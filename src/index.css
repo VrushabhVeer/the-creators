@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Titillium Web', sans-serif;
+  }
+}
+
+.logo-font {
+  font-family: 'Caveat', 'Titillium Web', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+}
