@@ -3,7 +3,7 @@ import { Building2, CheckCircle2, Layers } from "lucide-react";
 const HeroRight = () => {
   return (
     <div className="relative flex justify-center items-center bg-gradient-to-br from-orange-50 to-yellow-50">
-      <div className="relative max-w-md w-full">
+      <div className="relative max-w-sm md:max-w-md w-full">
         {/* Soft glow behind the card */}
         <div
           style={{
