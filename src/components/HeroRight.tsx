@@ -10,7 +10,7 @@ const HeroRight = () => {
             background:
               "radial-gradient(ellipse at 60% 40%, #fb923c55 0%, transparent 70%)",
           }}
-          className="absolute -inset-8 rounded-[3rem] pointer-events-none"
+          className="hidden lg:flex xl:flex absolute -inset-8 rounded-[3rem] pointer-events-none"
         />
 
         {/* ── MAIN CARD ── */}
