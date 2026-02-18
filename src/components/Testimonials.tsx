@@ -54,7 +54,7 @@ function TestimonialCard( { testimonial }: { testimonial: Testimonial }) {
     <div className="bg-gray-50 rounded-2xl p-8 relative flex-shrink-0 w-80 mx-4 hover:shadow-xl transition-shadow duration-300 flex flex-col"
       style={{ height: "260px" }}>
       <div className="absolute top-6 right-6 opacity-10">
-        <Quote size={64} className="text-orange-500" />
+        <Quote size={64} className="text-blue-500" />
       </div>
 
       <div className="flex gap-1 mb-4">
@@ -68,7 +68,7 @@ function TestimonialCard( { testimonial }: { testimonial: Testimonial }) {
       </p>
 
       <div className="flex items-center gap-4">
-        <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
+        <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
           {testimonial.name.charAt(0)}
         </div>
         <div>
@@ -102,7 +102,7 @@ export default function Testimonials() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-orange-500 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-blue-500 font-semibold text-sm uppercase tracking-wider">
             Testimonials
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">

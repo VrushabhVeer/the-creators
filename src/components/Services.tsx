@@ -5,7 +5,7 @@ const services = [
     icon: Building2,
     title: 'Building Design',
     description: 'Innovative architectural designs tailored to your vision and needs.',
-    color: 'bg-orange-100 text-orange-600',
+    color: 'bg-blue-100 text-blue-600',
   },
   {
     icon: Ruler,
@@ -44,7 +44,7 @@ export default function Services() {
     <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-orange-500 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-blue-500 font-semibold text-sm uppercase tracking-wider">
             Our Services
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">

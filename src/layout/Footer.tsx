@@ -16,7 +16,7 @@ export default function Footer() {
           <div>
             <Link to="/">
               <div className="flex items-center gap-2 mb-4">
-                <Building2 className="text-orange-500" size={32} />
+                <Building2 className="text-blue-500" size={32} />
                 <h3 className="logo-font text-xl font-bold">The Creator's</h3>
               </div>
             </Link>
@@ -27,25 +27,25 @@ export default function Footer() {
             <div className="flex gap-4">
               <a
                 href="#"
-                className="bg-gray-800 p-2 rounded-lg hover:bg-orange-500 transition-colors"
+                className="bg-gray-800 p-2 rounded-lg hover:bg-blue-500 transition-colors"
               >
                 <Facebook size={20} />
               </a>
               <a
                 href="#"
-                className="bg-gray-800 p-2 rounded-lg hover:bg-orange-500 transition-colors"
+                className="bg-gray-800 p-2 rounded-lg hover:bg-blue-500 transition-colors"
               >
                 <Twitter size={20} />
               </a>
               <a
                 href="#"
-                className="bg-gray-800 p-2 rounded-lg hover:bg-orange-500 transition-colors"
+                className="bg-gray-800 p-2 rounded-lg hover:bg-blue-500 transition-colors"
               >
                 <Instagram size={20} />
               </a>
               <a
                 href="#"
-                className="bg-gray-800 p-2 rounded-lg hover:bg-orange-500 transition-colors"
+                className="bg-gray-800 p-2 rounded-lg hover:bg-blue-500 transition-colors"
               >
                 <Linkedin size={20} />
               </a>
@@ -58,7 +58,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('home')}
-                  className="text-gray-400 hover:text-orange-500 transition-colors"
+                  className="text-gray-400 hover:text-blue-500 transition-colors"
                 >
                   Home
                 </button>
@@ -66,7 +66,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('services')}
-                  className="text-gray-400 hover:text-orange-500 transition-colors"
+                  className="text-gray-400 hover:text-blue-500 transition-colors"
                 >
                   Services
                 </button>
@@ -74,7 +74,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('about')}
-                  className="text-gray-400 hover:text-orange-500 transition-colors"
+                  className="text-gray-400 hover:text-blue-500 transition-colors"
                 >
                   About Us
                 </button>
@@ -82,7 +82,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('testimonials')}
-                  className="text-gray-400 hover:text-orange-500 transition-colors"
+                  className="text-gray-400 hover:text-blue-500 transition-colors"
                 >
                   Testimonials
                 </button>
@@ -106,15 +106,15 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4">Contact Info</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
-                <MapPin size={20} className="text-orange-500 mt-1 flex-shrink-0" />
+                <MapPin size={20} className="text-blue-500 mt-1 flex-shrink-0" />
                 <span>Ugam Tower, Jaistambh Chauk, Karanja (Lad) - 444105</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
-                <Phone size={20} className="text-orange-500 flex-shrink-0" />
+                <Phone size={20} className="text-blue-500 flex-shrink-0" />
                 <span>+91 98765 43210</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
-                <Mail size={20} className="text-orange-500 flex-shrink-0" />
+                <Mail size={20} className="text-blue-500 flex-shrink-0" />
                 <span>info@creatorsbuilding.com</span>
               </li>
             </ul>
@@ -130,13 +130,13 @@ export default function Footer() {
             <div className="flex gap-6 text-sm">
               <Link
                 to="/privacy-policy"
-                className="text-gray-400 hover:text-orange-500 transition-colors"
+                className="text-gray-400 hover:text-blue-500 transition-colors"
               >
                 Privacy Policy
               </Link>
               <Link
                 to="/terms-of-service"
-                className="text-gray-400 hover:text-orange-500 transition-colors"
+                className="text-gray-400 hover:text-blue-500 transition-colors"
               >
                 Terms of Service
               </Link>

@@ -12,20 +12,20 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="pt-24 pb-16 bg-gradient-to-br from-orange-50 to-yellow-50"
+      className="pt-24 pb-16 bg-gradient-to-br from-blue-50 to-blue-100"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-20 items-center min-h-[600px]">
           <div className="space-y-8">
             <div className="inline-block">
-              <span className="bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-medium">
+              <span className="bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-medium">
                 Building Dreams Since 2018
               </span>
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
               Building the
-              <span className="block text-orange-500">Future Together</span>
+              <span className="block text-blue-500">Future Together</span>
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">

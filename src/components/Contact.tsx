@@ -32,7 +32,7 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-orange-500 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-blue-500 font-semibold text-sm uppercase tracking-wider">
             Get In Touch
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">
@@ -53,8 +53,8 @@ export default function Contact() {
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="bg-orange-100 p-3 rounded-xl">
-                    <Phone className="text-orange-600" size={24} />
+                  <div className="bg-blue-100 p-3 rounded-xl">
+                    <Phone className="text-blue-600" size={24} />
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900 mb-1">Phone</p>
@@ -64,8 +64,8 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-orange-100 p-3 rounded-xl">
-                    <Mail className="text-orange-600" size={24} />
+                  <div className="bg-blue-100 p-3 rounded-xl">
+                    <Mail className="text-blue-600" size={24} />
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900 mb-1">Email</p>
@@ -75,8 +75,8 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-orange-100 p-3 rounded-xl">
-                    <MapPin className="text-orange-600" size={24} />
+                  <div className="bg-blue-100 p-3 rounded-xl">
+                    <MapPin className="text-blue-600" size={24} />
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900 mb-1">Office Address</p>
@@ -90,7 +90,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-orange-500 to-yellow-500 rounded-2xl p-8 text-white">
+            <div className="bg-gradient-to-br from-blue-500 to-blue-900 rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">Business Hours</h3>
               <div className="space-y-2">
                 <div className="flex justify-between">
@@ -140,7 +140,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all"
                     placeholder="Enter your name"
                   />
                 </div>
@@ -159,7 +159,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -178,7 +178,7 @@ export default function Contact() {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all"
                     placeholder="+91 98765 43210"
                   />
                 </div>
@@ -197,7 +197,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     rows={4}
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all resize-none"
                     placeholder="Tell us about your project..."
                   ></textarea>
                 </div>

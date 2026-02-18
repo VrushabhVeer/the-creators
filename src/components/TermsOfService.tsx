@@ -3,7 +3,7 @@ export default function TermsOfService() {
     <section className="mt-10 py-16 bg-gray-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8 text-center">
-          <span className="text-orange-500 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-blue-500 font-semibold text-sm uppercase tracking-wider">
             Terms of Service
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-3">

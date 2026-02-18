@@ -29,7 +29,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="text-orange-500 font-semibold text-sm uppercase tracking-wider">
+            <span className="text-blue-500 font-semibold text-sm uppercase tracking-wider">
               Why Choose Us
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">
@@ -89,8 +89,8 @@ export default function About() {
                   key={index}
                   className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300"
                 >
-                  <div className="bg-orange-100 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
-                    <Icon className="text-orange-600" size={24} />
+                  <div className="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+                    <Icon className="text-blue-600" size={24} />
                   </div>
                   <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
                   <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
