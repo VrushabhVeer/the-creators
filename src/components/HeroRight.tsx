@@ -2,13 +2,13 @@ import { Building2, CheckCircle2, Layers } from "lucide-react";
 
 const HeroRight = () => {
   return (
-    <div className="relative flex justify-center items-center bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl">
+    <div className="relative flex justify-center items-center bg-gradient-to-br from-orange-50 to-yellow-50">
       <div className="relative max-w-sm md:max-w-md w-full">
         {/* Soft glow behind the card */}
         <div
           style={{
             background:
-              "radial-gradient(ellipse at 60% 40%, #3c8cfb 0%, transparent 70%)",
+              "radial-gradient(ellipse at 60% 40%, #fb923c55 0%, transparent 70%)",
           }}
           className="hidden lg:flex xl:flex absolute -inset-8 rounded-[3rem] pointer-events-none"
         />
@@ -23,7 +23,7 @@ const HeroRight = () => {
                 "linear-gradient(135deg, #111827 0%, #1f2937 60%, #374151 100%)",
             }}
           >
-            {/* Abstract grid lines – mimics architecture blueprint */}
+            {/* Abstract grid lines – mimics architecture orangeprint */}
             <svg
               className="absolute inset-0 w-full h-full opacity-10"
               viewBox="0 0 320 176"
@@ -133,7 +133,7 @@ const HeroRight = () => {
 
             {/* Overlay label */}
             <div className="absolute top-4 left-4 flex items-center gap-2">
-              <div className="bg-blue-500 text-white p-2 rounded-xl">
+              <div className="bg-orange-500 text-white p-2 rounded-xl">
                 <Building2 size={16} />
               </div>
               <span className="text-white text-xs font-semibold tracking-widest uppercase opacity-90">
@@ -155,7 +155,7 @@ const HeroRight = () => {
             {/* ── Process strip ── */}
             <div className="rounded-2xl border border-gray-100 p-3.5">
               <div className="flex items-center gap-2 mb-3">
-                <Layers size={13} className="text-blue-400" />
+                <Layers size={13} className="text-orange-400" />
                 <p className="text-[10px] uppercase tracking-widest font-semibold text-gray-400">
                   How we work
                 </p>
@@ -167,7 +167,7 @@ const HeroRight = () => {
                       <div
                         className="h-6 w-6 rounded-full flex items-center justify-center text-[10px] font-bold text-white"
                         style={{
-                          background: i === 0 ? "#305fad" : "#e5e7eb",
+                          background: i === 0 ? "#f97316" : "#e5e7eb",
                           color: i === 0 ? "white" : "#9ca3af",
                         }}
                       >
@@ -181,7 +181,7 @@ const HeroRight = () => {
                       <div
                         className="h-px flex-1 mb-4"
                         style={{
-                          background: i === 0 ? "#305fad" : "#e5e7eb",
+                          background: i === 0 ? "#f97316" : "#e5e7eb",
                           opacity: 0.6,
                         }}
                       />
@@ -207,9 +207,9 @@ const HeroRight = () => {
                 ].map((s) => (
                   <span
                     key={s}
-                    className="flex items-center gap-1.5 text-[11px] font-medium bg-gray-50 border border-gray-100 text-gray-600 px-2.5 py-1 rounded-full hover:bg-blue-50 hover:border-blue-200 hover:text-blue-700 transition-all cursor-default"
+                    className="flex items-center gap-1.5 text-[11px] font-medium bg-gray-50 border border-gray-100 text-gray-600 px-2.5 py-1 rounded-full hover:bg-orange-50 hover:border-orange-200 hover:text-orange-700 transition-all cursor-default"
                   >
-                    <CheckCircle2 size={10} className="text-blue-400" />
+                    <CheckCircle2 size={10} className="text-orange-400" />
                     {s}
                   </span>
                 ))}
@@ -219,8 +219,8 @@ const HeroRight = () => {
         </div>
 
         {/* Floating accent dot */}
-        <div className="absolute -bottom-3 -right-3 h-10 w-10 rounded-full bg-blue-400 opacity-70 blur-sm pointer-events-none" />
-        <div className="absolute -top-3 -left-3 h-6 w-6 rounded-full bg-blue-800 opacity-60 blur-sm pointer-events-none" />
+        <div className="absolute -bottom-3 -right-3 h-10 w-10 rounded-full bg-orange-400 opacity-70 blur-sm pointer-events-none" />
+        <div className="absolute -top-3 -left-3 h-6 w-6 rounded-full bg-yellow-300 opacity-60 blur-sm pointer-events-none" />
       </div>
     </div>
   );
